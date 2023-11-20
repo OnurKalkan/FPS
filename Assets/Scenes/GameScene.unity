@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -1724,6 +1721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1000
+  auto: 1
+  semi_auto: 0
 --- !u!1001 &619226704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5178,11 +5177,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6018734195878351600, guid: d717ec8f4e5b6c140baa4aa0e86fda08, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4df49d18e6bb3714eb1ddc17b02ef24c, type: 2}
     - target: {fileID: 330048484975305939, guid: d717ec8f4e5b6c140baa4aa0e86fda08, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4df49d18e6bb3714eb1ddc17b02ef24c, type: 2}
     - target: {fileID: 919132149155446097, guid: d717ec8f4e5b6c140baa4aa0e86fda08, type: 3}
@@ -5190,11 +5189,11 @@ PrefabInstance:
       value: test
       objectReference: {fileID: 0}
     - target: {fileID: 5283224529235255492, guid: d717ec8f4e5b6c140baa4aa0e86fda08, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4df49d18e6bb3714eb1ddc17b02ef24c, type: 2}
     - target: {fileID: 7048114786837364010, guid: d717ec8f4e5b6c140baa4aa0e86fda08, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4df49d18e6bb3714eb1ddc17b02ef24c, type: 2}
     m_RemovedComponents: []
@@ -5772,7 +5771,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749349576}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
